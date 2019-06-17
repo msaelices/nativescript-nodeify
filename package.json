@@ -26,7 +26,7 @@
     }
   },
   "scripts": {
-    "demo.ios": "cd demo && rm -rf node_modules && npm i && tns run ios",
+    "demo.ios": "cd demo && rm -rf node_modules && rm package-lock.json && npm i && tns run ios",
     "demo.android": "cd demo && tns run android",
     "test.ios": "cd demo && tns test ios --emulator",
     "test.ios.device": "cd demo && tns test ios",
