@@ -1,6 +1,6 @@
-var observable = require("data/observable");
-var dialogs = require("ui/dialogs");
-var fs = require("file-system");
+var observable = require("tns-core-modules/data/observable");
+var dialogs = require("tns-core-modules/ui/dialogs");
+var fs = require("tns-core-modules/file-system");
 
 var DemoAppModel = (function (_super) {
   __extends(DemoAppModel, _super);
