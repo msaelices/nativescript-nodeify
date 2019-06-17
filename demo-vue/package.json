@@ -13,7 +13,17 @@
       "version": "5.0.0"
     }
   },
-  "dependencies": { 
+  "keywords": [
+    "ecosystem:nativescript",
+    "NativeScript",
+    "Node",
+    "npm",
+    "Android",
+    "iOS",
+    "crypto",
+    "vue"
+  ],
+  "dependencies": {
     "@vue/devtools": "^5.0.6",
     "nativescript-socketio": "^3.2.1",
     "nativescript-vue-devtools": "^1.2.0",
