@@ -26,13 +26,13 @@
     }
   },
   "scripts": {
-    "demo.ios": "cd demo && rm -rf hooks && rm -rf node_modules && rm package-lock.json && npm i && tns run ios",
-    "demo.android": "cd demo && tns run android",
-    "test.ios": "cd demo && tns test ios --emulator",
-    "test.ios.device": "cd demo && tns test ios",
-    "test.android": "cd demo && tns test android",
-    "preparedemo": "cd demo && tns plugin add .. && tns install",
-    "setup": "npm i && cd demo && npm i && cd .. && cd demo && tns plugin add .. && cd ..",
+    "demo.ios": "cd ../demo && rm -rf hooks && rm -rf node_modules && rm package-lock.json && npm i && tns run ios",
+    "demo.android": "cd ../demo && tns run android",
+    "test.ios": "cd ../demo && tns test ios --emulator",
+    "test.ios.device": "cd ../demo && tns test ios",
+    "test.android": "cd ../demo && tns test android",
+    "preparedemo": "cd ../demo && tns plugin add .. && tns install",
+    "setup": "npm i && cd ../demo && npm i && cd .. && cd ../demo && tns plugin add .. && cd ..",
     "postinstall": "node postinstall.js",
     "preuninstall": "node preuninstall.js"
   },

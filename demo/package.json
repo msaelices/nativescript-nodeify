@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "jsonwebtoken": "7.2.1",
-    "nativescript-nodeify": "file:..",
+    "nativescript-nodeify": "file:../src",
     "nativescript-unit-test-runner": "^0.3.0",
     "nedb": "1.8.0",
     "node-uuid": "^1.4.7",
